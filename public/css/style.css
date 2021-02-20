@@ -1,6 +1,6 @@
 body{
    color:#132743;
-   font-family:arial;
+   font-family: 'Quicksand', sans-serif;
    max-width:650px;
    background-color: #a6dcef;
    margin:0 auto;
@@ -8,13 +8,16 @@ body{
    display:flex;
    flex-direction:column;
    min-height: 100vh;
+   background-image: url("https://images.unsplash.com/photo-1587991827818-eddbc0396d43?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1050&q=80");
+   background-size: cover;
+   background-attachment: fixed;
 }
 .main-content{
    flex-grow:1;
 }
 footer{
-   color:#132743;
-   border-top: 1px solid #726a95;
+   color:#f8f9fa;
+   border-top: 1px solid #faf9fc;
    margin-top: 20px;
    padding: 20px 0;
 }
@@ -30,17 +33,26 @@ header a{
    color:#726a95;
    margin-right: 20px;
    text-decoration:none ;
+   font-weight: bold;
 }
 .potrait{
-   width:250px
+   width:200px
 }
 input{
     border: 1px solid #ecf4f3 ;
     padding:8px;
+    font-family: 'Quicksand', sans-serif;
 }
  button{
    border: 1px solid #ecf4f3 ;
    background-color:#726a95 ;
    color: #ecf4f3;
    padding:8px;
+   border-radius: 10px;
 } 
+header a:hover{
+  color: #6de9d8;
+}
+button:hover{
+   background-color:#62c4c7 ;
+}
